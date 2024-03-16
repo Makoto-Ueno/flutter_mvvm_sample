@@ -1,4 +1,4 @@
-import 'package:flutter_mvvm_sample/src/module/route_manager_imple.dart';
+import 'package:flutter_mvvm_sample/src/module/route_manager_impl.dart';
 import 'package:flutter_mvvm_sample/src/route/route.dart';
 import 'package:flutter_mvvm_sample/src/view_model/resolver.dart';
 import 'package:go_router/go_router.dart';
