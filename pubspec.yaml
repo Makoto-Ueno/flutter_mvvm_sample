@@ -30,11 +30,20 @@ dependencies:
   firebase_core: ^2.1.7
   webview_flutter: ^4.4.2
   logger: ^2.0.2+1
+  mini_di:
+   path: ../packages/mini_di
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  build_runner: ^2.4.6
+  riverpod_generator: ^2.3.2
+  freezed: ^2.4.1
+  json_serializable: ^6.7.1
+  go_router_builder: ^2.3.3
+  mini_di_generator:
+   path: ../packages/mini_di_generator
 
 flutter:
 
