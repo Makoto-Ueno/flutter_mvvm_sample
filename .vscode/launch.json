@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "inputs": [
+        {
+          "id": "flutterMode",
+          "type": "pickString",
+          "default": "debug",
+          "options": ["debug", "profile", "release"],
+          "description": "Which Flutter mode to use?"
+        }
+      ],
+    "configurations": [
+        {
+            "name": "flutter_mvvm_sample",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart"
+        }
+    ]
+}
